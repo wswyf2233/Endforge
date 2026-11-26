@@ -1,0 +1,62 @@
+{
+  "mappings": {
+    "org/examplee/wangsword/mixin/ArmorGlowMixin": {
+      "renderArmorParts(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;ILnet/minecraft/item/ArmorItem;Lnet/minecraft/client/render/entity/model/BipedEntityModel;ZFFFLjava/lang/String;)V": "Lnet/minecraft/class_970;method_23192(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;ILnet/minecraft/class_1738;Lnet/minecraft/class_572;ZFFFLjava/lang/String;)V"
+    },
+    "org/examplee/wangsword/mixin/FrozenTargetMixin": {
+      "setTarget": "Lnet/minecraft/class_1308;method_5980(Lnet/minecraft/class_1309;)V"
+    },
+    "org/examplee/wangsword/mixin/FulgurBossDamageMixin": {
+      "damage": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z"
+    },
+    "org/examplee/wangsword/mixin/LivingEntityElytraMixin": {
+      "tickFallFlying": "Lnet/minecraft/class_1309;method_6053()V"
+    },
+    "org/examplee/wangsword/mixin/PlayerChargePoseMixin": {
+      "setAngles(Lnet/minecraft/entity/LivingEntity;FFFFF)V": "Lnet/minecraft/class_591;method_17087(Lnet/minecraft/class_1309;FFFFF)V"
+    },
+    "org/examplee/wangsword/mixin/ProtectionNecklaceMixin": {
+      "modifyAppliedDamage": "Lnet/minecraft/class_1309;method_6036(Lnet/minecraft/class_1282;F)F"
+    },
+    "org/examplee/wangsword/mixin/TotemRewardMixin": {
+      "tryUseTotem": "Lnet/minecraft/class_1309;method_6095(Lnet/minecraft/class_1282;)Z"
+    },
+    "org/examplee/wangsword/mixin/WitherDoubleDamageMixin": {
+      "damage": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z"
+    },
+    "org/examplee/wangsword/mixin/WitherKnockbackMixin": {
+      "takeKnockback": "Lnet/minecraft/class_1309;method_6005(DDD)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "org/examplee/wangsword/mixin/ArmorGlowMixin": {
+        "renderArmorParts(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;ILnet/minecraft/item/ArmorItem;Lnet/minecraft/client/render/entity/model/BipedEntityModel;ZFFFLjava/lang/String;)V": "Lnet/minecraft/class_970;method_23192(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;ILnet/minecraft/class_1738;Lnet/minecraft/class_572;ZFFFLjava/lang/String;)V"
+      },
+      "org/examplee/wangsword/mixin/FrozenTargetMixin": {
+        "setTarget": "Lnet/minecraft/class_1308;method_5980(Lnet/minecraft/class_1309;)V"
+      },
+      "org/examplee/wangsword/mixin/FulgurBossDamageMixin": {
+        "damage": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z"
+      },
+      "org/examplee/wangsword/mixin/LivingEntityElytraMixin": {
+        "tickFallFlying": "Lnet/minecraft/class_1309;method_6053()V"
+      },
+      "org/examplee/wangsword/mixin/PlayerChargePoseMixin": {
+        "setAngles(Lnet/minecraft/entity/LivingEntity;FFFFF)V": "Lnet/minecraft/class_591;method_17087(Lnet/minecraft/class_1309;FFFFF)V"
+      },
+      "org/examplee/wangsword/mixin/ProtectionNecklaceMixin": {
+        "modifyAppliedDamage": "Lnet/minecraft/class_1309;method_6036(Lnet/minecraft/class_1282;F)F"
+      },
+      "org/examplee/wangsword/mixin/TotemRewardMixin": {
+        "tryUseTotem": "Lnet/minecraft/class_1309;method_6095(Lnet/minecraft/class_1282;)Z"
+      },
+      "org/examplee/wangsword/mixin/WitherDoubleDamageMixin": {
+        "damage": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z"
+      },
+      "org/examplee/wangsword/mixin/WitherKnockbackMixin": {
+        "takeKnockback": "Lnet/minecraft/class_1309;method_6005(DDD)V"
+      }
+    }
+  }
+}

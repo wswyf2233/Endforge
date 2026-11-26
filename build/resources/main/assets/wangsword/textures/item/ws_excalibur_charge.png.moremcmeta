@@ -1,0 +1,10 @@
+{
+  "animation": {
+    "frametime": 5,
+    "interpolate": false
+  },
+  "overlay": {
+    "texture": "wangsword:textures/item/ws_excalibur_charge_glow.png",
+    "emissive": true
+  }
+}

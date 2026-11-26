@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:ws_witherspawn_killer"
+    },
+    "title": {
+      "translate": "advancements.wangsword.witherspawn_killer.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.witherspawn_killer.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "got_ws_witherspawn_killer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_witherspawn_killer"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_ws_witherspawn_killer"
+    ]
+  ],
+  "parent": "wangsword:arsenal"
+}

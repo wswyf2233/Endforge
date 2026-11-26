@@ -1,0 +1,42 @@
+{
+  "item": "wangsword:ws_thunder_katana",
+  "attributes": {
+    "attack_range": 4,
+    "category": "sword",
+    "two_handed": false,
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.0,
+        "angle": 130,
+        "upswing": 0.2,
+        "animation": "bettercombat:one_handed_slash_horizontal_right",
+        "swing_sound": { "id": "bettercombat:sword_slash" }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.0,
+        "angle": 130,
+        "upswing": 0.2,
+        "animation": "bettercombat:one_handed_slash_horizontal_left",
+        "swing_sound": { "id": "bettercombat:sword_slash" }
+      },
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "damage_multiplier": 1.0,
+        "angle": 110,
+        "upswing": 0.35,
+        "animation": "bettercombat:one_handed_uppercut_right",
+        "swing_sound": { "id": "bettercombat:katana_slash" }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1.0,
+        "angle": 180,
+        "upswing": 0.25,
+        "animation": "bettercombat:one_handed_stab",
+        "swing_sound": { "id": "bettercombat:katana_slash" }
+      }
+    ]
+  }
+}

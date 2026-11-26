@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "wangsword:ws_redgold_ring" },
+    { "item": "minecraft:pufferfish" }
+  ],
+  "result": {
+    "item": "wangsword:ws_redgold_ring_water_breathing"
+  }
+}

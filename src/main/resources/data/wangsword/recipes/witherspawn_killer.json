@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "LSL",
+    "FFF"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "L": { "item": "wangsword:ws_lightningstone" },
+    "S": { "item": "minecraft:diamond_sword" },
+    "F": { "item": "minecraft:feather" }
+  },
+  "result": {
+    "item": "wangsword:ws_witherspawn_killer",
+    "count": 1
+  }
+}

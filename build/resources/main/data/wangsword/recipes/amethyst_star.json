@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CAC",
+    "ANA",
+    "CAC"
+  ],
+  "key": {
+    "A": { "item": "minecraft:amethyst_cluster" },
+    "C": { "item": "minecraft:popped_chorus_fruit" },
+    "N": { "item": "minecraft:nether_star" }
+  },
+  "result": {
+    "item": "wangsword:ws_amethyst_crystal",
+    "count": 1
+  }
+}

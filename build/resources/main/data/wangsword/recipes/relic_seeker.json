@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": { "item": "wangsword:ws_redgold_ingot" },
+    "C": { "item": "minecraft:compass" }
+  },
+  "result": {
+    "item": "wangsword:ws_extracompass",
+    "count": 1
+  }
+}

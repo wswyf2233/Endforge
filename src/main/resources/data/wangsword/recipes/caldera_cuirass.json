@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M M",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "wangsword:ws_molten_ingot"
+    }
+  },
+  "result": {
+    "item": "wangsword:ws_caldera_cuirass",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "wangsword:runic_forge_block",
+    "wangsword:ws_archean_debris",
+    "wangsword:ws_taigu_block",
+    "wangsword:ws_amethyst_block",
+    "wangsword:sword_tomb_altar"
+  ]
+}

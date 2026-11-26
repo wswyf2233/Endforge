@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "wangsword:item/ws_upgrade_smithing_template",
+    "layer1": "wangsword:item/ws_upgrade_smithing_template_sheet"
+  }
+}

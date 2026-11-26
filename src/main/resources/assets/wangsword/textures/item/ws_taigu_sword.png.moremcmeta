@@ -1,0 +1,6 @@
+{
+  "overlay": {
+    "texture": "wangsword:textures/item/ws_taigu_sword01.png",
+    "emissive": true
+  }
+}

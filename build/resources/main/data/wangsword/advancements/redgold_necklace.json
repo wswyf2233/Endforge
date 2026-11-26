@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:ws_redgold_necklace"
+    },
+    "title": {
+      "translate": "advancements.wangsword.redgold_necklace.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.redgold_necklace.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "got_ws_redgold_necklace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_redgold_necklace"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_ws_redgold_necklace"
+    ]
+  ],
+  "parent": "wangsword:redgold_gear"
+}

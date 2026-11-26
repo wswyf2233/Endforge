@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    " C ",
+    " C "
+  ],
+  "key": {
+    "R": { "item": "wangsword:ws_super_lightningstone" },
+    "C": { "item": "minecraft:amethyst_shard" }
+  },
+  "result": {
+    "item": "wangsword:ws_thunder_staff",
+    "count": 1
+  }
+}

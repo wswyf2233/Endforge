@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    "LSL",
+    " L "
+  ],
+  "key": {
+    "L": { "item": "wangsword:ws_super_lightningstone" },
+    "S": { "item": "wangsword:ws_purple_sword" }
+  },
+  "result": {
+    "item": "wangsword:ws_thunder_katana",
+    "count": 1
+  }
+}

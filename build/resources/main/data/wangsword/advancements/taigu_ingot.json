@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:ws_taigu_ingot"
+    },
+    "title": {
+      "translate": "advancements.wangsword.taigu_ingot.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.taigu_ingot.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_ws_taigu_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_taigu_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_ws_taigu_ingot"
+    ]
+  ],
+  "parent": "wangsword:deep_debris"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "HGH"
+  ],
+  "key": {
+    "A": { "item": "wangsword:ws_taigu_ingot" },
+    "B": { "item": "wangsword:runic_forge_block"},
+    "C": { "item": "minecraft:blaze_rod" },
+    "D": { "item": "minecraft:dragon_head" },
+    "E": { "item": "minecraft:crossbow" },
+    "F": { "item": "minecraft:dragon_breath" },
+    "G": { "item": "minecraft:dragon_egg" },
+    "H": { "item": "wangsword:ws_ultimate_core" }
+  },
+  "result": {
+    "item": "wangsword:fatalis_crossbow"
+  }
+}

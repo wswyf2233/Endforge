@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "G  "
+  ],
+  "key": {
+    "A": { "item": "minecraft:wither_skeleton_skull" },
+    "B": { "item": "minecraft:netherite_ingot" },
+    "C": { "item": "wangsword:ws_redgold_stick" },
+    "D": { "item": "wangsword:ws_deathcore" },
+    "E": { "item": "wangsword:ws_redgold_stick" },
+    "F": { "item": "wangsword:ws_redgold_ingot" },
+    "G": { "item": "wangsword:ws_redgold_stick" }
+  },
+  "result": {
+    "item": "wangsword:ws_deathscythe",
+    "count": 1
+  }
+}

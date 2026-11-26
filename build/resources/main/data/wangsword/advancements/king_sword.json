@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:wang_sword"
+    },
+    "title": {
+      "translate": "advancements.wangsword.king_sword.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.king_sword.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_wang_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:wang_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_wang_sword"
+    ]
+  ],
+  "parent": "wangsword:arsenal"
+}

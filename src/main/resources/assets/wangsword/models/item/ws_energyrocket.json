@@ -1,0 +1,15 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "wangsword:item/ws_energyrocket"
+  },
+  "display": {
+    "gui": {
+      "rotation": [0, 0, 45],
+      "translation": [0, 0, 0],
+      "scale": [1, 1, 1]
+    }
+
+  }
+}
+

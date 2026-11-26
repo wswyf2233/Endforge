@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS",
+    "BDB",
+    "SBS"
+  ],
+  "key": {
+    "S": { "item": "minecraft:snow_block" },
+    "B": { "item": "minecraft:blue_ice" },
+    "D": { "item": "minecraft:diamond_sword" }
+  },
+  "result": {
+    "item": "wangsword:ws_frost_blade",
+    "count": 1
+  }
+}

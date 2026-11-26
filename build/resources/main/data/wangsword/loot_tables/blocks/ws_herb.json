@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:survives_explosion" },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "wangsword:ws_herb",
+          "properties": { "age": "2" }
+        }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "wangsword:ws_herb" }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:survives_explosion" },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "wangsword:ws_herb",
+          "properties": { "age": "3" }
+        }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "wangsword:ws_herb" }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:survives_explosion" },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "wangsword:ws_herb",
+          "properties": { "age": "0" }
+        }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "wangsword:ws_herb_seed" }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:survives_explosion" },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "wangsword:ws_herb",
+          "properties": { "age": "1" }
+        }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "wangsword:ws_herb_seed" }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:survives_explosion" },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "wangsword:ws_herb",
+          "properties": { "age": "2" }
+        }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "wangsword:ws_herb_seed" }
+      ]
+    },
+    {
+      "rolls": 2,
+      "conditions": [
+        { "condition": "minecraft:survives_explosion" },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "wangsword:ws_herb",
+          "properties": { "age": "3" }
+        }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "wangsword:ws_herb_seed" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "wangsword:ws_redgold_ring",
+    "wangsword:ws_redgold_ring_conduit_power",
+    "wangsword:ws_redgold_ring_dolphins_grace",
+    "wangsword:ws_redgold_ring_fire_resistance",
+    "wangsword:ws_redgold_ring_haste",
+    "wangsword:ws_redgold_ring_hero_of_the_village",
+    "wangsword:ws_redgold_ring_invisibility",
+    "wangsword:ws_redgold_ring_jump_boost",
+    "wangsword:ws_redgold_ring_luck",
+    "wangsword:ws_redgold_ring_night_vision",
+    "wangsword:ws_redgold_ring_regeneration",
+    "wangsword:ws_redgold_ring_resistance",
+    "wangsword:ws_redgold_ring_slow_falling",
+    "wangsword:ws_redgold_ring_speed",
+    "wangsword:ws_redgold_ring_strength",
+    "wangsword:ws_redgold_ring_water_breathing"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:ws_caldera_crystal"
+    },
+    "title": {
+      "translate": "advancements.wangsword.caldera_crystal.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.caldera_crystal.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_caldera_crystal"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got"
+    ]
+  ],
+  "parent": "wangsword:cinder_colossus"
+}

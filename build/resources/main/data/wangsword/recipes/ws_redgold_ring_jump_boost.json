@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "wangsword:ws_redgold_ring" },
+    { "item": "minecraft:rabbit_foot" }
+  ],
+  "result": {
+    "item": "wangsword:ws_redgold_ring_jump_boost"
+  }
+}

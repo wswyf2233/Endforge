@@ -1,0 +1,6 @@
+{
+  "parent": "wangsword:item/ws_shieldmodel",
+  "overrides": [
+    { "predicate": { "wangsword:blocking": 1 }, "model": "wangsword:item/ws_shield_blocking" }
+  ]
+}

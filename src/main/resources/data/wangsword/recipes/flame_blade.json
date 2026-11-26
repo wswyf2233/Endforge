@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BFB",
+    "FRF",
+    "BMB"
+  ],
+  "key": {
+    "B": { "item": "minecraft:blaze_powder" },
+    "F": { "item": "wangsword:ws_flame_crystal" },
+    "M": { "item": "minecraft:magma_cream" },
+    "R": { "item": "wangsword:ws_redgolden_sword" }
+  },
+  "result": {
+    "item": "wangsword:ws_flame_blade",
+    "count": 1
+  }
+}

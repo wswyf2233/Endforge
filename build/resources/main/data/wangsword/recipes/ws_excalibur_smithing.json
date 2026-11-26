@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "wangsword:ws_excalibur_smithing_template" },
+  "base": { "item": "wangsword:ws_taigu_sword" },
+  "addition": { "item": "wangsword:ws_ultimate_core" },
+  "result": {
+    "item": "wangsword:ws_excalibur",
+    "count": 1
+  }
+}

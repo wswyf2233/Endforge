@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wangsword:sword_tomb_greatsword"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wangsword:ws_guardiancore",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1.0
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wangsword:ws_ghost_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3.0
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "wangsword:ws_magnet" },
+    { "item": "wangsword:ws_redgold_necklace" }
+  ],
+  "result": {
+    "item": "wangsword:ws_necklace_magnet",
+    "count": 1
+  }
+}

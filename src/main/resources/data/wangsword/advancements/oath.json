@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:ws_sword_tomb_oath"
+    },
+    "title": {
+      "translate": "advancements.wangsword.oath.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.oath.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_ws_sword_tomb_oath": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_sword_tomb_oath"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_ws_sword_tomb_oath"
+    ]
+  ],
+  "parent": "wangsword:greatsword_pro_max"
+}

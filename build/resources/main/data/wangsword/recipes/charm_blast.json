@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "wangsword:ws_charm_blank" },
+    { "item": "minecraft:gunpowder" },
+    { "item": "minecraft:obsidian" }
+  ],
+  "result": { "item": "wangsword:ws_charm_blast", "count": 1 }
+}

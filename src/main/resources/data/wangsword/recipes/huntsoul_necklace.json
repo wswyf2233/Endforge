@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "wangsword:ws_redgold_necklace" },
+    { "item": "minecraft:bone" },
+    { "item": "minecraft:spider_eye" }
+  ],
+  "result": {
+    "item": "wangsword:ws_necklace_huntsoul",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    " C ",
+    " C "
+  ],
+  "key": {
+    "A": { "item": "wangsword:ws_amethyst_ingot" },
+    "B": { "item": "wangsword:ws_amethyst_crystal" },
+    "C": { "item": "wangsword:ws_redgold_ingot" }
+  },
+  "result": {
+    "item": "wangsword:ws_greathammer",
+    "count": 1
+  }
+}

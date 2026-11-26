@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "wangsword:item/ws_sword_tomb_oath"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [0, -90, 55],
+      "translation": [0, -2.5, 1.5],
+      "scale": [2.5, 2.5, 0.85]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 90, -55],
+      "translation": [0, -2.5, 1.5],
+      "scale": [2.5, 2.5, 0.85]
+    },
+    "firstperson_righthand": {
+      "rotation": [0, -90, 25],
+      "translation": [1, 4, 1],
+      "scale": [1.8, 1.8, 0.68]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 90, -25],
+      "translation": [1, 4, 1],
+      "scale": [1.8, 1.8, 0.68]
+    }
+
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "wangsword:blocking": 1
+      },
+      "model": "wangsword:item/ws_sword_tomb_oath_guard"
+    }
+  ]
+}

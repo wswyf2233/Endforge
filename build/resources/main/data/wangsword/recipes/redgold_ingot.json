@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "CEC",
+    " D "
+  ],
+  "key": {
+    "G": { "item": "minecraft:gold_ingot" },
+    "C": { "item": "minecraft:copper_ingot" },
+    "D": { "item": "minecraft:diamond" },
+    "E": { "item": "minecraft:blaze_powder" }
+  },
+  "result": {
+    "item": "wangsword:ws_redgold_ingot",
+    "count": 2
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "wangsword:item/ws_super_lightningstone",
+    "layer1": "wangsword:item/ws_super_lightningstone_glowmask"
+  }
+}

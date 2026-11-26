@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "HGH"
+  ],
+  "key": {
+    "A": { "item": "minecraft:enchanted_golden_apple" },
+    "B": { "item": "wangsword:runic_forge_block"},
+    "C": { "item": "minecraft:blaze_rod" },
+    "D": { "item": "minecraft:dragon_head" },
+    "E": { "item": "wangsword:ws_taigu_sword" },
+    "F": { "item": "minecraft:dragon_breath" },
+    "G": { "item": "minecraft:wither_skeleton_skull" },
+    "H": { "item": "wangsword:ws_ultimate_core" }
+  },
+  "result": {
+    "item": "wangsword:wang_sword"
+  }
+}

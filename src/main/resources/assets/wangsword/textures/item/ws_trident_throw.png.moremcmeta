@@ -1,0 +1,11 @@
+{
+  "overlay": {
+    "emissive": true,
+    "texture": "wangsword:textures/item/ws_trident_throw_glow.png",
+    "transparency": "auto"
+  },
+  "animation": {
+    "frametime": 5,
+    "interpolate": true
+  }
+}

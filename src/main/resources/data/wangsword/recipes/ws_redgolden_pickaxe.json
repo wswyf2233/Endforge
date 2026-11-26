@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "I": { "item": "wangsword:ws_redgold_ingot" },
+    "S": { "item": "wangsword:ws_redgold_stick" }
+  },
+  "result": {
+    "item": "wangsword:ws_redgolden_pickaxe",
+    "count": 1
+  }
+}

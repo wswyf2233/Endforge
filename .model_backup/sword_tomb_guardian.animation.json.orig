@@ -1,0 +1,88 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "idle": {
+      "loop": true,
+      "animation_length": 2.0,
+      "bones": {
+        "sword1": { "rotation": { "0": { "vector": [0, 0, 0] }, "1": { "vector": [0, 12, 0] }, "2": { "vector": [0, 0, 0] } } },
+        "sword2": { "rotation": { "0": { "vector": [0, 60, 0] }, "1": { "vector": [0, 72, 0] }, "2": { "vector": [0, 60, 0] } } },
+        "sword3": { "rotation": { "0": { "vector": [0, 120, 0] }, "1": { "vector": [0, 132, 0] }, "2": { "vector": [0, 120, 0] } } },
+        "sword4": { "rotation": { "0": { "vector": [0, 180, 0] }, "1": { "vector": [0, 192, 0] }, "2": { "vector": [0, 180, 0] } } },
+        "sword5": { "rotation": { "0": { "vector": [0, 240, 0] }, "1": { "vector": [0, 252, 0] }, "2": { "vector": [0, 240, 0] } } },
+        "sword6": { "rotation": { "0": { "vector": [0, 300, 0] }, "1": { "vector": [0, 312, 0] }, "2": { "vector": [0, 300, 0] } } }
+      }
+    },
+    "awake": {
+      "loop": false,
+      "animation_length": 1.5,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0": { "vector": [0, 0, 0] },
+            "0.75": { "vector": [-4, 0, 0] },
+            "1.5": { "vector": [0, 0, 0] }
+          }
+        },
+        "sword1": { "rotation": { "0": { "vector": [0, 0, -80] }, "1.5": { "vector": [0, 0, 0] } } },
+        "sword2": { "rotation": { "0": { "vector": [0, 60, -80] }, "1.5": { "vector": [0, 60, 0] } } },
+        "sword3": { "rotation": { "0": { "vector": [0, 120, -80] }, "1.5": { "vector": [0, 120, 0] } } },
+        "sword4": { "rotation": { "0": { "vector": [0, 180, -80] }, "1.5": { "vector": [0, 180, 0] } } },
+        "sword5": { "rotation": { "0": { "vector": [0, 240, -80] }, "1.5": { "vector": [0, 240, 0] } } },
+        "sword6": { "rotation": { "0": { "vector": [0, 300, -80] }, "1.5": { "vector": [0, 300, 0] } } }
+      }
+    },
+    "attack": {
+      "loop": false,
+      "animation_length": 1.0,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0": { "vector": [0, 0, 0] },
+            "0.35": { "vector": [-6, 0, 0] },
+            "1.0": { "vector": [0, 0, 0] }
+          }
+        },
+        "swordRoot": {
+          "rotation": {
+            "0": { "vector": [0, 0, 0] },
+            "0.35": { "vector": [0, 90, 0] },
+            "1.0": { "vector": [0, 0, 0] }
+          }
+        }
+      }
+    },
+    "melee": {
+      "loop": false,
+      "animation_length": 1.0,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0": { "vector": [0, 0, 0] },
+            "0.12": { "vector": [0, -12, 0] },
+            "0.24": { "vector": [0, -14, 0] },
+            "0.36": { "vector": [0, 0, 0] },
+            "0.46": { "vector": [2, 14, 0] },
+            "0.54": { "vector": [3, 20, 0] },
+            "0.66": { "vector": [3, 22, 0] },
+            "0.8": { "vector": [0, 12, 0] },
+            "1.0": { "vector": [0, 0, 0] }
+          }
+        },
+        "swordweapon": {
+          "rotation": {
+            "0": { "vector": [0, 0, 0] },
+            "0.12": { "vector": [32, 0, 0] },
+            "0.24": { "vector": [62, 20, 0] },
+            "0.36": { "vector": [42, 72, 0] },
+            "0.46": { "vector": [18, 112, 0] },
+            "0.54": { "vector": [0, 160, 0] },
+            "0.66": { "vector": [0, 200, 0] },
+            "0.8": { "vector": [48, 252, 0] },
+            "1.0": { "vector": [0, 360, 0] }
+          }
+        }
+      }
+    }
+  }
+}

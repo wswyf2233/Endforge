@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FSF",
+    "SNS",
+    "FSF"
+  ],
+  "key": {
+    "F": { "item": "minecraft:chorus_flower" },
+    "S": { "item": "minecraft:amethyst_shard" },
+    "N": { "item": "minecraft:netherite_upgrade_smithing_template" }
+  },
+  "result": {
+    "item": "wangsword:ws_upgrade_smithing_template",
+    "count": 1
+  }
+}

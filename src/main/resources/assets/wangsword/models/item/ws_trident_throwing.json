@@ -1,0 +1,19 @@
+{
+
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "wangsword:item/ws_trident_throw"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [-40, 260, 140],
+      "translation": [-1, -10, 2],
+      "scale": [1.7, 3, 1.2]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [-40, -260, -140],
+      "translation": [-1, -10, 2],
+      "scale": [1.7, 3, 1.2]
+    }
+  }
+}

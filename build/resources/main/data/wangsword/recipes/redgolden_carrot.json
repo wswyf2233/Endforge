@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "IGI",
+    " I "
+  ],
+  "key": {
+    "I": { "item": "wangsword:ws_redgold_ingot" },
+    "G": { "item": "minecraft:golden_carrot" }
+  },
+  "result": {
+    "item": "wangsword:ws_redgolden_carrot",
+    "count": 1
+  }
+}

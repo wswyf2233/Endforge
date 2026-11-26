@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:ws_molten_sealed_greatsword"
+    },
+    "title": {
+      "translate": "advancements.wangsword.molten_sealed.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.molten_sealed.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_molten_sealed_greatsword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got"
+    ]
+  ],
+  "parent": "wangsword:cinder_colossus"
+}

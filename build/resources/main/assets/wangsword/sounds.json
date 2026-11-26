@@ -1,0 +1,10 @@
+{
+  "swordws": { "sounds": [ "wangsword:swordws" ] },
+  "bowshoot": { "sounds": [ "wangsword:bowshoot" ] },
+  "shoot_01": { "sounds": [ "wangsword:shoot_01" ] },
+  "shoot_02": { "sounds": [ "wangsword:shoot_02" ] },
+  "slash": { "sounds": [ "wangsword:slash" ] },
+  "excalibur": { "sounds": [ "wangsword:excalibur" ] },
+  "excalibur_wind": { "sounds": [ "wangsword:excalibur_wind" ] },
+  "excalibur_swing": { "sounds": [ "wangsword:excalibur_swing" ] }
+}

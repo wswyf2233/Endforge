@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:ws_fulgur_helm"
+    },
+    "title": {
+      "translate": "advancements.wangsword.ghost_steel_set.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.ghost_steel_set.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_helm": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_fulgur_helm"
+            ]
+          }
+        ]
+      }
+    },
+    "got_cuirass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_fulgur_cuirass"
+            ]
+          }
+        ]
+      }
+    },
+    "got_greaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_fulgur_greaves"
+            ]
+          }
+        ]
+      }
+    },
+    "got_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_fulgur_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_helm",
+      "got_cuirass",
+      "got_greaves",
+      "got_boots"
+    ]
+  ],
+  "parent": "wangsword:ghost_ingot"
+}

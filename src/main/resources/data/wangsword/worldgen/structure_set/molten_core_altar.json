@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "wangsword:molten_core_altar",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1937482510,
+    "spacing": 96,
+    "separation": 48,
+    "spread_type": "linear"
+  }
+}

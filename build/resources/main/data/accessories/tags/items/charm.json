@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "wangsword:ws_charm_blank",
+    "wangsword:ws_charm_ember",
+    "wangsword:ws_charm_tide",
+    "wangsword:ws_charm_starfall",
+    "wangsword:ws_charm_thunder",
+    "wangsword:ws_charm_blast"
+  ]
+}

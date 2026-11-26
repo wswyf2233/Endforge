@@ -1,0 +1,103 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "wangsword:item/model",
+    "layer1": "wangsword:item/gem_breath",
+    "layer2": "wangsword:item/model_03"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        45
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        -40,
+        260,
+        -40
+      ],
+      "translation": [
+        -1,
+        6,
+        2
+      ],
+      "scale": [
+        1.7,
+        1.7,
+        1.7
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        45,
+        -90,
+        55
+      ],
+      "translation": [
+        0,
+        8,
+        2
+      ],
+      "scale": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        45,
+        90,
+        -55
+      ],
+      "translation": [
+        0,
+        8,
+        2
+      ],
+      "scale": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -40,
+        -260,
+        40
+      ],
+      "translation": [
+        -1,
+        6,
+        2
+      ],
+      "scale": [
+        1.7,
+        1.7,
+        1.7
+      ]
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "wangsword:charging": 1
+      },
+      "model": "wangsword:item/wang_sword_charging"
+    }
+  ]
+}

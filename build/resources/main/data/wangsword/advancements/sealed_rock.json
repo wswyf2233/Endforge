@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:ws_sealed_rock_greatsword"
+    },
+    "title": {
+      "translate": "advancements.wangsword.sealed_rock.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.sealed_rock.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_sealed_rock_greatsword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got"
+    ]
+  ],
+  "parent": "wangsword:stone_bone"
+}

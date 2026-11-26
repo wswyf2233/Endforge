@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "wangsword:ws_upgrade_smithing_template" },
+  "base": { "item": "minecraft:shield" },
+  "addition": { "item": "wangsword:ws_amethyst_ingot" },
+  "result": { "item": "wangsword:ws_shield" }
+}

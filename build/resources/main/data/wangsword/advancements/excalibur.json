@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:ws_excalibur"
+    },
+    "title": {
+      "translate": "advancements.wangsword.excalibur.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.excalibur.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_ws_excalibur": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_excalibur"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_ws_excalibur"
+    ]
+  ],
+  "parent": "wangsword:arsenal"
+}

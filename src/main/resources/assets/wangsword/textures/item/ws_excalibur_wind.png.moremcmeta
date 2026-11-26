@@ -1,0 +1,6 @@
+{
+  "overlay": {
+    "texture": "wangsword:textures/item/ws_excalibur_wind_glow.png",
+    "emissive": true
+  }
+}

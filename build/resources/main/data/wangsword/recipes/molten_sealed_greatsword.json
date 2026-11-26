@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "FWF"
+  ],
+  "key": {
+    "C": {
+      "item": "wangsword:ws_molten_core"
+    },
+    "F": {
+      "item": "wangsword:ws_flame_crystal"
+    },
+    "W": {
+      "item": "wangsword:ws_sealed_rock_greatsword"
+    }
+  },
+  "result": {
+    "item": "wangsword:ws_molten_sealed_greatsword",
+    "count": 1
+  }
+}

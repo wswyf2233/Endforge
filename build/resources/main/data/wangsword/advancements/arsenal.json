@@ -1,0 +1,154 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:ws_lightningstone"
+    },
+    "title": {
+      "translate": "advancements.wangsword.arsenal.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.arsenal.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "got_ws_witherspawn_killer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_witherspawn_killer"
+            ]
+          }
+        ]
+      }
+    },
+    "got_ws_trident": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_trident"
+            ]
+          }
+        ]
+      }
+    },
+    "got_ws_bow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_bow"
+            ]
+          }
+        ]
+      }
+    },
+    "got_ws_greathammer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_greathammer"
+            ]
+          }
+        ]
+      }
+    },
+    "got_ws_lance": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_lance"
+            ]
+          }
+        ]
+      }
+    },
+    "got_wang_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:wang_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "got_fatalis_crossbow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:fatalis_crossbow"
+            ]
+          }
+        ]
+      }
+    },
+    "got_ws_excalibur": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_excalibur"
+            ]
+          }
+        ]
+      }
+    },
+    "got_ws_avalon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_avalon"
+            ]
+          }
+        ]
+      }
+    },
+    "got_ws_deathscythe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_deathscythe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_ws_witherspawn_killer",
+      "got_ws_trident",
+      "got_ws_bow",
+      "got_ws_greathammer",
+      "got_ws_lance",
+      "got_wang_sword",
+      "got_fatalis_crossbow",
+      "got_ws_excalibur",
+      "got_ws_avalon",
+      "got_ws_deathscythe"
+    ]
+  ],
+  "parent": "wangsword:redgold_gear"
+}

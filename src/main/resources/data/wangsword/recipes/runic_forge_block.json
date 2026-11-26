@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TBT",
+    "BHB",
+    "TBT"
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:netherite_block"
+    },
+    "B": {
+      "item": "minecraft:nether_star"
+    },
+    "T": {
+      "item": "minecraft:ghast_tear"
+    }
+  },
+  "result": {
+    "item": "wangsword:runic_forge_block",
+    "count": 1
+  }
+}

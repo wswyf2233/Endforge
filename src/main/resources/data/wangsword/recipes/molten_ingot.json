@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "RCR",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "wangsword:ws_redgold_ingot"
+    },
+    "C": {
+      "item": "wangsword:ws_molten_core"
+    }
+  },
+  "result": {
+    "item": "wangsword:ws_molten_ingot",
+    "count": 8
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": { "item": "wangsword:ws_archean_debris" },
+  "result": "wangsword:ws_taigu_shard",
+  "experience": 2.0,
+  "cookingtime": 600
+}

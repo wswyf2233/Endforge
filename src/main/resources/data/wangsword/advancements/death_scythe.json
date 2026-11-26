@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:ws_deathscythe"
+    },
+    "title": {
+      "translate": "advancements.wangsword.death_scythe.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.death_scythe.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_ws_deathscythe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_deathscythe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_ws_deathscythe"
+    ]
+  ],
+  "parent": "wangsword:arsenal"
+}

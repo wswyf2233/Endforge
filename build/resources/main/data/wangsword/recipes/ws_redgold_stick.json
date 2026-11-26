@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L",
+    "B",
+    "I"
+  ],
+  "key": {
+    "L": { "item": "minecraft:leather" },
+    "B": { "item": "minecraft:bone" },
+    "I": { "item": "wangsword:ws_redgold_ingot" }
+  },
+  "result": {
+    "item": "wangsword:ws_redgold_stick",
+    "count": 1
+  }
+}

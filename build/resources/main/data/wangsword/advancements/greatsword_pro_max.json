@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:sword_tomb_greatsword_pro_max"
+    },
+    "title": {
+      "translate": "advancements.wangsword.greatsword_pro_max.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.greatsword_pro_max.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_sword_tomb_greatsword_pro_max": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:sword_tomb_greatsword_pro_max"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_sword_tomb_greatsword_pro_max"
+    ]
+  ],
+  "parent": "wangsword:greatsword"
+}

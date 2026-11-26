@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "has_item=true": { "model": "wangsword:block/stone_sword_pedestal_full" },
+    "has_item=false": { "model": "wangsword:block/stone_sword_pedestal_empty" }
+  }
+}

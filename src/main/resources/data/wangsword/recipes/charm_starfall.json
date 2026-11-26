@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "wangsword:ws_charm_blank" },
+    { "item": "minecraft:feather" },
+    { "item": "minecraft:phantom_membrane" }
+  ],
+  "result": { "item": "wangsword:ws_charm_starfall", "count": 1 }
+}

@@ -1,0 +1,15 @@
+{
+  "parent": "wangsword:item/ws_sword_tomb_oath",
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [0, 0, 135],
+      "translation": [-2, 5, 1],
+      "scale": [1.8, 1.8, 0.68]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 0, -135],
+      "translation": [2, 5, 1],
+      "scale": [1.8, 1.8, 0.68]
+    }
+  }
+}

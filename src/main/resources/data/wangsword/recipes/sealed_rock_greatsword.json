@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " H ",
+    "SBS"
+  ],
+  "key": {
+    "H": {
+      "item": "wangsword:ws_earth_heart"
+    },
+    "S": {
+      "item": "wangsword:ws_crown_shard"
+    },
+    "B": {
+      "item": "wangsword:ws_stone_bone_greatsword"
+    }
+  },
+  "result": {
+    "item": "wangsword:ws_sealed_rock_greatsword",
+    "count": 1
+  }
+}

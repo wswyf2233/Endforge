@@ -1,0 +1,24 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "wangsword:item/ws_lance",
+    "layer1": "wangsword:item/ws_lance_2_e"
+  },
+  "overrides": [
+    {
+      "predicate": { "pulling": 1.0 },
+      "model": "wangsword:item/ws_lance_pull_0"
+    },
+    {
+      "predicate": { "pulling": 1.0, "pull": 0.5 },
+      "model": "wangsword:item/ws_lance_pull_1"
+    }
+  ],
+  "display": {
+    "gui": { "rotation": [0, 0, 0], "translation": [0, 0, 0], "scale": [1.2, 1.2, 1.2] },
+    "thirdperson_righthand": { "rotation": [-40, 260, -80], "translation": [-1, 10, 2], "scale": [2, 2, 1.2] },
+    "firstperson_righthand": { "rotation": [45, -90, 0], "translation": [0, 5, 2], "scale": [0.8, 0.8, 0.3] },
+    "firstperson_lefthand": { "rotation": [45, 90, 0], "translation": [0, 5, 2], "scale": [0.8, 0.8, 0.3] },
+    "thirdperson_lefthand": { "rotation": [-40, -260, 80], "translation": [-1, 10, 2], "scale": [2, 2, 1.2] }
+  }
+}

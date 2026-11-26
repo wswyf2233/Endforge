@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wangsword:ws_charm_blank"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "wangsword:ws_caldera_crystal"
+    }
+  ],
+  "result": {
+    "item": "wangsword:ws_charm_ember",
+    "count": 1
+  }
+}

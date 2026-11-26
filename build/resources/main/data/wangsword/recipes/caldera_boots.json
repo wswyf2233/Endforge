@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M M",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "wangsword:ws_molten_ingot"
+    }
+  },
+  "result": {
+    "item": "wangsword:ws_caldera_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "wangsword:item/ws_bow"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        -45
+      ],
+      "translation": [
+        -2,
+        2,
+        0
+      ],
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        0.5
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        110,
+        90,
+        90
+      ],
+      "translation": [
+        0,
+        3,
+        1
+      ],
+      "scale": [
+        1.2,
+        1.2,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        110,
+        -90,
+        -90
+      ],
+      "translation": [
+        0,
+        3,
+        1
+      ],
+      "scale": [
+        1.2,
+        1.2,
+        0.4
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        0.5
+      ]
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "pulling": 1
+      },
+      "model": "wangsword:item/ws_bow_01"
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 0.65
+      },
+      "model": "wangsword:item/ws_bow_03"
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 0.9
+      },
+      "model": "wangsword:item/ws_bow_02"
+    }
+  ]
+}

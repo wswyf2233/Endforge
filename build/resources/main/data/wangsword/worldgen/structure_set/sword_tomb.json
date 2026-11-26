@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "wangsword:sword_tomb",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 873421905,
+    "spacing": 80,
+    "separation": 32,
+    "spread_type": "linear"
+  }
+}

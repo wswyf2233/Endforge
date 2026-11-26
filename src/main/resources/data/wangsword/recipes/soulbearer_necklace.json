@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "wangsword:ws_redgold_necklace" },
+    { "item": "minecraft:soul_sand" },
+    { "item": "minecraft:amethyst_shard" }
+  ],
+  "result": {
+    "item": "wangsword:ws_necklace_soulbearer",
+    "count": 1
+  }
+}

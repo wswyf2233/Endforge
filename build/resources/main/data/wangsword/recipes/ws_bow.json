@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ALA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": { "item": "minecraft:nether_star" },
+    "L": { "item": "wangsword:ws_lightningstone" },
+    "C": { "item": "minecraft:purpur_block" },
+    "D": { "item": "minecraft:bow" },
+    "E": { "item": "minecraft:copper_block" },
+    "F": { "item": "minecraft:gold_ingot" }
+  },
+  "result": {
+    "item": "wangsword:ws_bow",
+    "count": 1
+  }
+}

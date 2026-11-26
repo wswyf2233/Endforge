@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:ws_bow"
+    },
+    "title": {
+      "translate": "advancements.wangsword.meteor_bow.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.meteor_bow.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "got_ws_bow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_bow"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_ws_bow"
+    ]
+  ],
+  "parent": "wangsword:arsenal"
+}

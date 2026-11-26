@@ -1,0 +1,14 @@
+{
+  
+  "textures": {
+    "layer0": "wangsword:entity/test_tex"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "wangsword:entity/test_model"
+    }
+  ]
+}

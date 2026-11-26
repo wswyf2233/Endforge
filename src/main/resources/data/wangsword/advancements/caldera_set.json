@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:ws_caldera_helm"
+    },
+    "title": {
+      "translate": "advancements.wangsword.caldera_set.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.caldera_set.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_helm": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_caldera_helm"
+            ]
+          }
+        ]
+      }
+    },
+    "got_cuirass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_caldera_cuirass"
+            ]
+          }
+        ]
+      }
+    },
+    "got_greaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_caldera_greaves"
+            ]
+          }
+        ]
+      }
+    },
+    "got_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_caldera_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_helm",
+      "got_cuirass",
+      "got_greaves",
+      "got_boots"
+    ]
+  ],
+  "parent": "wangsword:molten_ingot"
+}

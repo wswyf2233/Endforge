@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    " I ",
+    " G "
+  ],
+  "key": {
+    "G": { "item": "minecraft:gold_nugget" },
+    "I": { "item": "wangsword:ws_redgold_ingot" }
+  },
+  "result": { "item": "wangsword:ws_charm_blank", "count": 1 }
+}

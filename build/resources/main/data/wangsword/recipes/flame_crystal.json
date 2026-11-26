@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "ACA",
+    " D "
+  ],
+  "key": {
+    "C": { "item": "wangsword:ws_molten_core" },
+    "A": { "item": "minecraft:amethyst_shard" },
+    "D": { "item": "minecraft:diamond" }
+  },
+  "result": {
+    "item": "wangsword:ws_flame_crystal",
+    "count": 4
+  }
+}

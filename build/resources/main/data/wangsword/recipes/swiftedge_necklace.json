@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "wangsword:ws_redgold_necklace" },
+    { "item": "minecraft:feather" },
+    { "item": "minecraft:sugar" }
+  ],
+  "result": {
+    "item": "wangsword:ws_necklace_swiftedge",
+    "count": 1
+  }
+}

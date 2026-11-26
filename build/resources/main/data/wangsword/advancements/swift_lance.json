@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:ws_lance"
+    },
+    "title": {
+      "translate": "advancements.wangsword.swift_lance.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.swift_lance.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "got_ws_lance": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_lance"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_ws_lance"
+    ]
+  ],
+  "parent": "wangsword:arsenal"
+}

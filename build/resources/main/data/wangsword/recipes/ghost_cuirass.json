@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G G",
+    "GGG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "wangsword:ws_ghost_ingot"
+    }
+  },
+  "result": {
+    "item": "wangsword:ws_fulgur_cuirass",
+    "count": 1
+  }
+}

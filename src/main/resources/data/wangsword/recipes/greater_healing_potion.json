@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:honey_bottle" },
+    { "item": "wangsword:ws_healing_potion" }
+  ],
+  "result": {
+    "item": "wangsword:ws_greater_healing_potion",
+    "count": 1
+  }
+}

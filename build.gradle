@@ -1,0 +1,108 @@
+plugins {
+    id 'fabric-loom' version '1.4.2'
+}
+
+// 产物名：Endforge-<version>.jar（放在 build/libs 下）
+version = "1.0.1"
+base {
+    archivesName = "Endforge"
+}
+
+maven_group = "com.yourname"
+archives_base_name = "Endforge"
+
+minecraft_version = "1.20.1"
+yarn_mappings = "1.20.1+build.1"
+loader_version = "0.19.4"
+
+repositories {
+    maven { url "https://maven.aliyun.com/repository/public" }
+    maven { url "https://maven.aliyun.com/repository/google" }
+    maven { url "https://maven.fabricmc.net/" }
+    maven { url "https://api.modrinth.com/maven" } // Modrinth 的仓库，JsonEM 从这下载
+    mavenCentral()
+}
+
+// 统一 ASM 版本：Mixin 0.8.7 搭配 ASM 9.5 会在读取注解时崩溃
+configurations.all {
+    resolutionStrategy {
+        force 'org.ow2.asm:asm:9.10.1'
+        force 'org.ow2.asm:asm-tree:9.10.1'
+        force 'org.ow2.asm:asm-analysis:9.10.1'
+        force 'org.ow2.asm:asm-commons:9.10.1'
+        force 'org.ow2.asm:asm-util:9.10.1'
+    }
+}
+
+// 固定开发环境用户名，避免每次启动变成新的 PlayerXXX（会导致存档玩家数据重置）
+loom {
+    // 访问放宽（RenderPhase.Texture / RenderLayer.MultiPhaseParameters 等 protected 类）
+    accessWidenerPath = file("src/main/resources/wangsword.accesswidener")
+
+    runs {
+        client {
+            programArgs "--username", "Wangsword", "--uuid", "00000000-0000-0000-0000-000000000001"
+        }
+    }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${minecraft_version}"
+    mappings "net.fabricmc:yarn:${yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${loader_version}"
+    
+    // Fabric API
+    modImplementation "net.fabricmc.fabric-api:fabric-api:0.92.11+1.20.1"
+
+    // Accessories 饰品系统（本地 jar；1.0.0-beta.47 需要 cloth-config，owo-lib 一并引入）
+    modImplementation files("libs/accessories-fabric-1.0.0-beta.47+1.20.1.jar")
+    modImplementation files("libs/cloth-config-11.1.136-fabric.jar")
+    modImplementation files("libs/owo-lib-0.11.2+1.20.jar")
+
+    // Accessories 内嵌的库（JIJ 在开发环境不会自动进 classpath，必须显式引入）
+    implementation files("libs/endec-0.1.8.jar")
+    implementation files("libs/gson-0.1.5.jar")
+    implementation files("libs/netty-0.1.4.jar")
+
+    // BetterCombat (如果你确实需要它，建议用 Maven 方式下载，别用本地 jar)
+    // modImplementation "maven.modrinth:better-combat:1.8.5+1.20.1-fabric"
+    // 如果你必须用本地 jar，先暂时保留这一行：
+
+
+
+    // Better Combat：只用于编译；运行时由 run/mods 里的 1.8.6 提供。
+    // 用 modImplementation 会把 1.8.5 也塞进运行 classpath，和 run/mods 那份重复，
+    // 导致武器属性和攻击动画被加载两遍（所有武器普攻消失）。
+    modCompileOnly files("libs/bettercombat-fabric-1.8.5+1.20.1.jar")
+
+    // PlayerAnimator：只用于编译，运行时由 run/mods 提供
+    modCompileOnly files("run/mods/player-animation-lib-fabric-1.0.2-rc1+1.20.jar")
+
+    // GeckoLib：只用于编译，运行时由 run/mods 提供
+    modCompileOnly files("run/mods/geckolib-fabric-1.20.1-4.8.4.jar")
+// PlayerAnimator：不引入任何编译依赖，客户端用反射调用，防止出现第二份导致 Better Combat 全挂
+
+       // 直接引用本地 jar 包
+ 
+}
+
+tasks {
+    processResources {
+        inputs.property "version", project.version
+        filesMatching("fabric.mod.json") {
+            expand "version": project.version
+        }
+    }
+
+    jar {
+        from("LICENSE") {
+            rename { "${it}_${archives_base_name}" }
+        }
+    }
+}
+
+tasks.configureEach {
+    if (it.name == "downloadAssets") {
+        it.onlyIf { false }
+    }
+}

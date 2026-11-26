@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CAC",
+    "ADA",
+    "CAC"
+  ],
+  "key": {
+    "A": { "item": "minecraft:amethyst_shard" },
+    "C": { "item": "minecraft:redstone_block" },
+    "D": { "item": "minecraft:diamond" }
+  },
+  "result": {
+    "item": "wangsword:ws_energycrystal",
+    "count": 1
+  }
+}

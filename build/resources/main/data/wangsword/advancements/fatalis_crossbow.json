@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:fatalis_crossbow"
+    },
+    "title": {
+      "translate": "advancements.wangsword.fatalis_crossbow.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.fatalis_crossbow.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_fatalis_crossbow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:fatalis_crossbow"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_fatalis_crossbow"
+    ]
+  ],
+  "parent": "wangsword:arsenal"
+}

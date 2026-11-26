@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "key": {
+    "A": { "item": "minecraft:potion", "nbt": "{Potion:\"minecraft:poison\"}" },
+    "B": { "item": "minecraft:potion", "nbt": "{Potion:\"minecraft:harming\"}" },
+    "C": { "item": "minecraft:potion", "nbt": "{Potion:\"minecraft:weakness\"}" },
+    "D": { "item": "minecraft:potion", "nbt": "{Potion:\"minecraft:slowness\"}" },
+    "E": { "item": "minecraft:iron_sword" },
+    "F": { "item": "minecraft:potion", "nbt": "{Potion:\"minecraft:poison\"}" },
+    "G": { "item": "minecraft:potion", "nbt": "{Potion:\"minecraft:harming\"}" },
+    "H": { "item": "minecraft:potion", "nbt": "{Potion:\"minecraft:weakness\"}" },
+    "I": { "item": "minecraft:potion", "nbt": "{Potion:\"minecraft:slowness\"}" }
+  },
+  "result": {
+    "item": "wangsword:ws_poisondagger",
+    "count": 1
+  }
+}

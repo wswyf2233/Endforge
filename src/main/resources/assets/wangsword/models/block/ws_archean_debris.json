@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "wangsword:block/ws_archean_debris_1",
+    "bottom": "wangsword:block/ws_archean_debris_1",
+    "side": "wangsword:block/ws_archean_debris_side"
+  }
+}

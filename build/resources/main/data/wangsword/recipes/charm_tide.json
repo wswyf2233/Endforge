@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "wangsword:ws_charm_blank" },
+    { "item": "minecraft:prismarine_shard" },
+    { "item": "minecraft:pufferfish" }
+  ],
+  "result": { "item": "wangsword:ws_charm_tide", "count": 1 }
+}

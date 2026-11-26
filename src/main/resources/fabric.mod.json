@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "wangsword",
+  "version": "1.0.1",
+  "name": "Endforge",
+  "description": "Endforge is a Fabric 1.20.1 combat mod adding skill-driven swords, boss fights, custom structures, and two animated 3D armor sets with set bonuses.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/wangsword/icon.png",
+  "entrypoints": {
+    "main": [
+      "org.examplee.wangsword.Wangsword"
+    ],
+    "client": [
+      "org.examplee.wangsword.client.WangSwordClientInit",
+      "org.examplee.wangsword.client.EntityRenderers",
+      "org.examplee.wangsword.client.BowClientInitializer"
+    ]
+  },
+  "mixins": [
+    "wangsword.mixins.json",
+    "wangsword.client.mixins.json"
+  ],
+  "accessWidener": "wangsword.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": ">=0.92.2",
+    "accessories": ">=1.0.0-beta.47",
+    "moremcmeta": ">=1.20.1-4.5.2",
+    "moremcmeta_emissive_plugin": ">=1.20.1-2.0.4",
+    "geckolib": ">=4.8.4",
+    "player-animator": ">=1.0.2-rc1"
+  },
+  "recommends": {
+    "bettercombat": ">=1.8.5"
+  }
+}

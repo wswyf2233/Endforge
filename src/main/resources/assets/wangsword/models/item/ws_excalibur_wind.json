@@ -1,0 +1,93 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "wangsword:item/ws_excalibur_wind"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        45
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        -40,
+        260,
+        -40
+      ],
+      "translation": [
+        -1,
+        12,
+        2
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        45,
+        -90,
+        55
+      ],
+      "translation": [
+        0,
+        8,
+        2
+      ],
+      "scale": [
+        2,
+        2,
+        0.2
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        45,
+        90,
+        -55
+      ],
+      "translation": [
+        0,
+        8,
+        2
+      ],
+      "scale": [
+        2,
+        2,
+        0.2
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -40,
+        260,
+        -40
+      ],
+      "translation": [
+        -1,
+        12,
+        2
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ]
+    }
+  }
+}

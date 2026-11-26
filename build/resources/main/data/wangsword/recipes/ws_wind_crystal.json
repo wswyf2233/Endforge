@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    " S ",
+    " G "
+  ],
+  "key": {
+    "W": { "item": "minecraft:prismarine_bricks" },
+    "S": { "item": "minecraft:diamond" },
+    "G": { "item": "minecraft:feather" }
+  },
+  "result": {
+    "item": "wangsword:ws_wind_crystal",
+    "count": 1
+  }
+}

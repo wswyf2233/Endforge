@@ -1,0 +1,6 @@
+{
+  "overlay": {
+    "texture": "wangsword:textures/item/ws_super_lightningstone_glowmask.png",
+    "emissive": true
+  }
+}

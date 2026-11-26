@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "DED",
+    "BBB"
+  ],
+  "key": {
+    "A": { "item": "wangsword:ws_taigu_shard"},
+    "B": { "item": "minecraft:netherite_scrap"},
+
+    "D": { "item": "minecraft:gold_ingot"},
+    "E": { "item": "wangsword:ws_amethyst_ingot" }
+
+
+  },
+
+
+"result": {
+    "item": "wangsword:ws_taigu_ingot",
+    "count": 1
+  }
+}

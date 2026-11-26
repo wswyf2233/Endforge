@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:coal" },
+    { "item": "wangsword:ws_pyron_crystal" }
+  ],
+  "result": {
+    "item": "wangsword:ws_high_energy_coal",
+    "count": 1
+  }
+}

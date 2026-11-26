@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "wangsword:runic_forge_block",
+    "wangsword:ws_archean_debris",
+    "wangsword:ws_pyron_ore",
+    "wangsword:ws_pyron_ore_nether",
+    "wangsword:ws_taigu_block",
+    "wangsword:ws_amethyst_block",
+    "wangsword:ws_redgold_block",
+    "wangsword:sword_tomb_altar",
+    "wangsword:stone_sword_pedestal"
+  ]
+}

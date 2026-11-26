@@ -1,0 +1,6 @@
+{
+  "overlay": {
+    "texture": "wangsword:textures/item/ws_lance_2_e.png",
+    "emissive": true
+  }
+}

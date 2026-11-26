@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LNL",
+    "ESG",
+    "LDL"
+  ],
+  "key": {
+    "L": { "item": "minecraft:lapis_lazuli" },
+    "N": { "item": "minecraft:netherite_ingot" },
+    "E": { "item": "minecraft:emerald" },
+    "S": { "item": "wangsword:ws_amethyst_crystal" },
+    "G": { "item": "minecraft:gold_ingot" },
+    "D": { "item": "minecraft:diamond" }
+  },
+  "result": {
+    "item": "wangsword:ws_amethyst_ingot",
+    "count": 1
+  }
+}

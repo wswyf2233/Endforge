@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PNP",
+    "LTL",
+    " C "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:prismarine_bricks"
+    },
+    "N": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "L": {
+      "item": "wangsword:ws_lightningstone"
+    },
+    "T": {
+      "item": "minecraft:trident"
+    },
+    "C": {
+      "item": "minecraft:conduit"
+    }
+  },
+  "result": {
+    "item": "wangsword:ws_trident",
+    "count": 1
+  }
+}

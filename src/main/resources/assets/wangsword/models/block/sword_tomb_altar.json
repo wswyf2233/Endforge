@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "wangsword:block/sword_tomb_altar_top",
+    "side": "wangsword:block/sword_tomb_altar_side",
+    "bottom": "wangsword:block/sword_tomb_altar_bottom"
+  }
+}

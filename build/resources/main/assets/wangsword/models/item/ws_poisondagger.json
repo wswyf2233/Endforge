@@ -1,0 +1,20 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "wangsword:item/ws_poisondagger"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        90
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

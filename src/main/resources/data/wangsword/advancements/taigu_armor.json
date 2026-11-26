@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:ws_taiguarmor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.wangsword.taigu_armor.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.taigu_armor.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_ws_taiguarmor_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_taiguarmor_chestplate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_ws_taiguarmor_chestplate"
+    ]
+  ],
+  "parent": "wangsword:taigu_ingot"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " F ",
+    " R ",
+    " R "
+  ],
+  "key": {
+    "F": { "item": "wangsword:ws_flame_crystal" },
+    "R": { "item": "wangsword:ws_redgold_ingot" }
+  },
+  "result": {
+    "item": "wangsword:ws_flame_staff",
+    "count": 1
+  }
+}

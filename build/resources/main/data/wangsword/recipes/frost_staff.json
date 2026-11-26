@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    " B ",
+    " C "
+  ],
+  "key": {
+    "C": { "item": "wangsword:ws_ice_crystal" },
+    "B": { "item": "wangsword:ws_frost_blade" }
+  },
+  "result": {
+    "item": "wangsword:ws_frost_staff",
+    "count": 1
+  }
+}

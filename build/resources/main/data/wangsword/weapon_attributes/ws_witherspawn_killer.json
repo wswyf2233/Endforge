@@ -1,0 +1,26 @@
+{
+  "item": "wangsword:ws_witherspawn_killer",
+  "attributes": {
+    "attack_range": 3.0,
+    "two_handed": false,
+    "category": "sword",
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.0,
+        "angle": 120,
+        "upswing": 0.2,
+        "animation": "bettercombat:one_handed_slash_horizontal_right",
+        "swing_sound": { "id": "bettercombat:sword_slash" }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 1.0,
+        "angle": 120,
+        "upswing": 0.2,
+        "animation": "bettercombat:one_handed_slash_horizontal_left",
+        "swing_sound": { "id": "bettercombat:sword_slash" }
+      }
+    ]
+  }
+}

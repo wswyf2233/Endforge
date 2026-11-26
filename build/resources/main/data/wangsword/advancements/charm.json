@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:ws_charm_blank"
+    },
+    "title": {
+      "translate": "advancements.wangsword.charm.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.charm.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "got_ws_charm_blank": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_charm_blank"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_ws_charm_blank"
+    ]
+  ],
+  "parent": "wangsword:redgold_necklace"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "DSD",
+    " B "
+  ],
+  "key": {
+    "D": { "item": "wangsword:ws_deathcoreshard" },
+    "S": { "item": "wangsword:ws_redgolden_sword" },
+    "B": { "item": "wangsword:ws_redgold_stick" }
+  },
+  "result": {
+    "item": "wangsword:ws_bloodsail_cutlass",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BAB",
+    " B "
+  ],
+  "key": {
+    "A": { "item": "wangsword:ws_guardiancore" },
+    "B": { "item": "wangsword:ws_crown_shard" }
+  },
+  "result": {
+    "item": "wangsword:ws_ultimate_core",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "GEG",
+    "BBB"
+  ],
+  "key": {
+    "A": { "item": "wangsword:ws_amethyst_ingot" },
+    "E": { "item": "wangsword:ws_energycrystal" },
+    "G": { "item": "minecraft:glass" },
+    "B": { "item": "minecraft:amethyst_shard" }
+  },
+  "result": {
+    "item": "wangsword:ws_energyrocket",
+    "count": 1
+  }
+}

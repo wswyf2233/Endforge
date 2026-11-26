@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "wangsword:ws_redgold_necklace" },
+    { "item": "minecraft:amethyst_shard" },
+    { "item": "minecraft:echo_shard" }
+  ],
+  "result": {
+    "item": "wangsword:ws_necklace_echo",
+    "count": 1
+  }
+}

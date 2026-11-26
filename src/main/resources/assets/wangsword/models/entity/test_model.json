@@ -1,0 +1,18 @@
+{
+  "credit": "Manual",
+  "texture_size": [128, 128],
+  "textures": {
+    "0": "wangsword:entity/test_tex",
+    "particle": "wangsword:entity/test_tex"
+  },
+  "elements": [
+    {
+      "from": [-16, -16, 0],
+      "to": [16, 16, 0.1],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#0"}
+      }
+    }
+  ]
+}

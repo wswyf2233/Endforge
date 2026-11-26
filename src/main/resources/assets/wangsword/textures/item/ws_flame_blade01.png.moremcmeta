@@ -1,0 +1,11 @@
+{
+  "overlay": {
+    "emissive": true,
+    "texture": "wangsword:textures/item/ws_flame_blade01_glow.png",
+    "transparency": "translucent"
+  },
+  "animation": {
+    "frametime": 5,
+    "interpolate": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "wangsword:ws_redgold_necklace" },
+    { "item": "wangsword:ws_redgold_ring_resistance" }
+  ],
+  "result": {
+    "item": "wangsword:ws_necklace_protection",
+    "count": 1
+  }
+}

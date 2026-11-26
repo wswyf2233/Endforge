@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "DID",
+    "DDD"
+  ],
+  "key": {
+    "T": { "item": "wangsword:ws_upgrade_smithing_template" },
+    "I": { "item": "wangsword:ws_amethyst_ingot" },
+    "D": { "item": "minecraft:diamond" }
+  },
+  "result": {
+    "item": "wangsword:ws_taiguupgrade_smithing_template",
+    "count": 1
+  }
+}

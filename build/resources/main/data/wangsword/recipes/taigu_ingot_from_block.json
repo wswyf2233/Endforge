@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [ { "item": "wangsword:ws_taigu_block" } ],
+  "result": { "item": "wangsword:ws_taigu_ingot", "count": 9 }
+}

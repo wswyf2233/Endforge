@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "org.examplee.wangsword.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ArmorGlowMixin",
+    "PlayerChargePoseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

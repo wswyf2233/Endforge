@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "wangsword:ws_charm_blank" },
+    { "item": "minecraft:lightning_rod" },
+    { "item": "minecraft:copper_ingot" }
+  ],
+  "result": { "item": "wangsword:ws_charm_thunder", "count": 1 }
+}

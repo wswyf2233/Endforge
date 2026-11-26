@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:sword_tomb_greatsword"
+    },
+    "title": {
+      "translate": "advancements.wangsword.greatsword.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.greatsword.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "got_sword_tomb_greatsword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:sword_tomb_greatsword"
+            ]
+          }
+        ]
+      }
+    },
+    "got_sword_tomb_greatsword_plus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:sword_tomb_greatsword_plus"
+            ]
+          }
+        ]
+      }
+    },
+    "got_sword_tomb_greatsword_pro": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:sword_tomb_greatsword_pro"
+            ]
+          }
+        ]
+      }
+    },
+    "got_sword_tomb_greatsword_pro_max": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:sword_tomb_greatsword_pro_max"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_sword_tomb_greatsword",
+      "got_sword_tomb_greatsword_plus",
+      "got_sword_tomb_greatsword_pro",
+      "got_sword_tomb_greatsword_pro_max"
+    ]
+  ],
+  "parent": "wangsword:guardian"
+}

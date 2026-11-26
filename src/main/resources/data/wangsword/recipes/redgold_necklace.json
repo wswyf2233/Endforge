@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NAN",
+    "NRN"
+  ],
+  "key": {
+    "N": { "item": "minecraft:gold_nugget" },
+    "R": { "item": "wangsword:ws_redgold_ingot" },
+    "A": { "item": "minecraft:amethyst_shard" }
+  },
+  "result": {
+    "item": "wangsword:ws_redgold_necklace",
+    "count": 1
+  }
+}

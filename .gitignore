@@ -1,0 +1,10 @@
+.gradle
+.idea
+build
+run
+libs
+backup
+.model_backup
+docs
+*.bak
+*.png

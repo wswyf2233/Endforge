@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BAB",
+    "BBB"
+  ],
+  "key": {
+    "A": { "item": "minecraft:amethyst_shard" },
+    "B": { "item": "minecraft:blue_ice" }
+  },
+  "result": {
+    "item": "wangsword:ws_ice_crystal",
+    "count": 1
+  }
+}

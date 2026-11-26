@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "CTC",
+    " C "
+  ],
+  "key": {
+    "C": { "item": "wangsword:ws_ultimate_core" },
+    "T": { "item": "wangsword:ws_taiguupgrade_smithing_template" }
+  },
+  "result": {
+    "item": "wangsword:ws_excalibur_smithing_template",
+    "count": 1
+  }
+}

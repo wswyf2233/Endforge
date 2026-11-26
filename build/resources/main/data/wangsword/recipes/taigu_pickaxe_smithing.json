@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "wangsword:ws_taiguupgrade_smithing_template" },
+  "base": { "item": "wangsword:ws_purple_pickaxe" },
+  "addition": { "item": "wangsword:ws_taigu_ingot" },
+  "result": {
+    "item": "wangsword:ws_taigu_pickaxe",
+    "count": 1
+  }
+}

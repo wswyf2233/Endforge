@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AGA",
+    "WVW",
+    " T "
+  ],
+  "key": {
+    "A": { "item": "wangsword:ws_amethyst_ingot" },
+    "G": { "item": "minecraft:gold_block" },
+    "W": { "item": "wangsword:ws_wind_crystal" },
+    "V": { "item": "minecraft:nether_star" },
+    "T": { "item": "wangsword:ws_taigu_ingot" }
+  },
+  "result": {
+    "item": "wangsword:ws_avalon",
+    "count": 1
+  }
+}

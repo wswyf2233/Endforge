@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "wangsword:ws_avalon"
+    },
+    "title": {
+      "translate": "advancements.wangsword.avalon.title"
+    },
+    "description": {
+      "translate": "advancements.wangsword.avalon.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_ws_avalon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wangsword:ws_avalon"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_ws_avalon"
+    ]
+  ],
+  "parent": "wangsword:arsenal"
+}

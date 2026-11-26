@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": { "item": "wangsword:ws_deathcoreshard" }
+  },
+  "result": {
+    "item": "wangsword:ws_deathcore",
+    "count": 1
+  }
+}
